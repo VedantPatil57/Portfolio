@@ -218,7 +218,7 @@ img {
 }
 .home__blob-img {
   width: 376px;
-  transform: translate(35px, -41px);
+  transform: translate(0px, -3px);
 }
 
 /*BUTTONS*/
@@ -346,12 +346,16 @@ img {
   backface-visibility: hidden;
   overflow: hidden;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  object-fit: cover; 
+  display: block; 
 }
 
 .flip-card-front img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block; 
+  object-position: center; 
 }
 
 .flip-card-back {
